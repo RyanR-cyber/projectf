@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url("images/sunday.png") no-repeat fixed top right;
+	
+}
+#container{
+width: 800px;
+	margin: 0 auto;
+}
+.left{
+	width:380px;
+	height: 200px;
+	background-color:rgba(255,255,255,.5); 
+	border-radius: 25px;
+	float: left;
+	margin: 0px 10px 10px 15px;
+	padding: 30px 30px 30px 30px;
+	border: solid 3px
+}
+
+.right{
+	width:380px;
+	height: 200px;
+	background-color:rgba(255,255,255,.5);
+	border-radius: 25px;
+	float: left;
+	margin: 0px 0px 10px 0px;
+	padding: 30px 30px 30px 30px;
+
+	
+}
+footer{
+	clear: both; background: rgba(255,255,255,1.00)
+}
+header > h1{
+	text-align: center;
+	color: rgba(41,40,40,1.00)
+}
+#container article{
+	background-color: aqua;
+}
+
+article a:link{
+		color:rgba(0,0,0,1.00);
+	text-decoration: none;
+	}
+article a:hover{
+	font-size: 1.3em;
+}
+
+article a:visited{
+	color: rgba(255,0,4,1.00)
+}
+article a:active{
+	color:darkblue
+}
+.shadows {
+  font-family: "Shadows Into Light","verdana", cursive;
+  font-weight: 400;
+  font-style: normal; color: rgba(143,0,2,1.00);
+	font-size: 50px
+}
+footer a:link{
+	text-decoration: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
